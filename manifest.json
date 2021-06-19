@@ -1,0 +1,26 @@
+{
+    "name": "Anichin bypasser",
+    "browser_action": {
+        "default_icon": "images/icon.png"
+    },
+    "manifest_version": 2,
+    "version": "0.1",
+    "description": "Untuk membypass password pastehouse ketika ingin mendapatkan link download.","permissions": [
+        "contextMenus",
+        "tabs",
+        "activeTab",
+        "https://trakteer.id/anichin/*",
+        "http://trakteer.id/anichin/*",
+        "https://me.pastehouse.com/*",
+        "http://me.pastehouse.com/*"
+    ],
+    "icons": {
+        "16": "images/icon.png",
+        "32": "images/icon.png",
+        "48": "images/icon.png",
+        "128": "images/icon.png"
+    },
+    "background": {
+        "scripts": ["js/background.js"]
+    }
+}
